@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router'
 
 //components
 import { PokerHeaderComponent } from './poker-header/poker-header.component';
@@ -22,7 +23,8 @@ import { PokerListComponent } from './poker-list/poker-list.component';
   ],
 
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class SharedModule { }
