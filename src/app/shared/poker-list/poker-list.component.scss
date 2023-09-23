@@ -24,6 +24,7 @@
         text-decoration: none;
         color: var(--primary-color);
 
+
         &__status{
             h2{
                 font-size: rem-calc(22);
@@ -67,7 +68,19 @@
             img{
                 width: rem-calc(70);
             }
+            img:hover{
+                width: rem-calc(90);
+            }
         }
+    }
+    .pokemon:hover{
+        width:calc(49% - 2.3rem);
+      
+        color:rgb(255, 255, 255);
+        
+        background: var(--tres-color);
+        transition: all 0.5s;
+        box-shadow: 6px 6px 6px #012c0e96;
     }
 }
 }

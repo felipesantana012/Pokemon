@@ -1,7 +1,10 @@
 :root {
-	--branco: #fff;
-	--cinza: #efefef;
-
-	--primary-color: #262835;
-	--secondary-color: #ff5473;
+	--branco: #ffffff;
+	--cinza: #302626;
+	
+	--primary-color: linear-gradient(to right, #523737, #461414, #523737);
+	--quatro-color: linear-gradient(to right, #0d5e1d, #023317, #18723a);
+	--secondary-color: #eb3535d5;
+	--tres-color : linear-gradient(to right, #a82626a1, #da3232e5, #ff4343a4);
+	
 }

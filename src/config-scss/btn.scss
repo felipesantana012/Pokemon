@@ -13,11 +13,29 @@
 
 	&__primary {
 		color: var(--branco);
-		background: var(--primary-color);
+		background: var(--tres-color);
 	}
 
 	&__secondary {
 		color: var(--branco);
-		background: var(--secondary-color);
+		background: var(--tres-color);
 	}
+}
+
+.btn-topo{
+  position: fixed;
+  bottom: 20px;
+  right: 20px; /* Posição no canto direito */
+  background: var(--tres-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.btn-topo:hover{
+	transition: all 0.5s;
+	box-shadow: 6px 6px 6px #012c0e96;
 }
