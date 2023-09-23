@@ -11,6 +11,8 @@ export class PokerListComponent implements OnInit {
   public getAllPokemons: any;
   private setAllPokemons: any;  
 
+  public apiError : boolean = false;
+
   constructor(
     private pokerApiService: PokerApiService
   ){}
@@ -19,6 +21,9 @@ export class PokerListComponent implements OnInit {
       res => {
         this.setAllPokemons = res.results;
         this.getAllPokemons = this.setAllPokemons;
+      },
+      error => {
+        this.apiError = true
       }
     );
   }
